@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hide {
+    display: none;
+}
+
+.wrapper {
+    margin: 100px auto;
+    max-width: 700px;
+}
+
+.start {
+    text-align: center;
+}
+
+.scores {
+    font-family: "Lucida Console", Courier, monospace;
+    top: 10px;
+    left: 10px;
+}
+
+.feedback {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
+.timer {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: black;
+}
+
+.choices button {
+    display: inline;
+    margin: 5px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    background-color: cadetblue;
+    border-radius: 5px;
+    padding: 2px 10px;
+    color: white;
+    transition: background-color 0.1s;
+}
+
+button:hover {
+    background: silver;
+
+}
+
+.choices button {
+    display: block;
+}
+
+ol {
+    max-height: 400px;
+    padding-left: 0px;
+    overflow: auto;
+}
+
+
